@@ -1,0 +1,30 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Rapp.history
+*.Rproj
+renv/library/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Office temp files
+~$*.docx
+~$*.xlsx
+
+# Regenerated R outputs (Python cross-check CSVs in outputs/ are kept)
+outputs/GROUP_Results_Log.txt
+outputs/Table*.txt
+outputs/Table*.html
+outputs/Plot*.png
